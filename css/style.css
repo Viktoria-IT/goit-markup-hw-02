@@ -41,6 +41,7 @@ body {
 .social-links .link:focus {
   color: var(--blue-text);
   background: var(--white-text);
+  text-decoration: underline;
 }
 
 .links {
@@ -60,6 +61,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--blue-text);
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .contacts-tel {
