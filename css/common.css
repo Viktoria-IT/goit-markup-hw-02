@@ -1,0 +1,99 @@
+:root {
+  --white-text: rgba(255, 255, 255, 1);
+  --blue-text: rgba(33, 150, 243, 1);
+  --black-text: rgba(33, 33, 33, 1);
+  --pepel-text-phone: rgba(117, 117, 117, 1);
+  --background-section-one: rgba(47, 48, 58, 1);
+  --background-section-four: rgba(245, 244, 250, 1);
+  --footer-adress: rgba(255, 255, 255, 0.6);
+}
+
+.logo {
+  color: rgba(33, 150, 243, 1);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.text {
+  font-family: Raleway, sans-serif;
+  color: rgba(33, 33, 33, 1);
+  font-size: 400;
+  letter-spacing: 0.03em;
+}
+
+.social-links .link {
+  color: rgba(33, 33, 33, 1);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  color: rgba(33, 150, 243, 1);
+  background: rgba(255, 255, 255, 1);
+}
+
+.links {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgba(33, 150, 243, 1);
+}
+
+.contacts-mail {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: rgba(33, 150, 243, 1);
+  cursor: pointer;
+}
+
+.contacts-tel {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: rgba(117, 117, 117, 1);
+}
+
+.span {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 1);
+}
+
+.info {
+  background: rgba(47, 48, 58, 1);
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 1);
+}
