@@ -1,0 +1,237 @@
+:root {
+  --white-text: rgba(255, 255, 255, 1);
+  --blue-text: rgba(33, 150, 243, 1);
+  --black-text: rgba(33, 33, 33, 1);
+  --pepel-text-phone: rgba(117, 117, 117, 1);
+  --background-section-one: rgba(47, 48, 58, 1);
+  --background-section-four: rgba(245, 244, 250, 1);
+  --footer-adress: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--black-text);
+  font-family: Roboto, sans-serif;
+}
+
+.logo {
+  color: var(--blue-text);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.text {
+  font-family: Raleway, sans-serif;
+  color: var(--black-text);
+  letter-spacing: 0.03em;
+}
+
+.social-links .link {
+  color: var(--black-text);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  color: var(--blue-text);
+  background: var(--white-text);
+}
+
+.links {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--blue-text);
+}
+
+.contacts-mail {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--blue-text);
+  cursor: pointer;
+}
+
+.contacts-tel {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--pepel-text-phone);
+}
+
+/* main */
+
+.hero {
+  background: var(--background-section-one);
+}
+
+.name {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  color: var(--white-text);
+}
+
+.current {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--white-text);
+  background: var(--blue-text);
+}
+
+.feature {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black-text);
+}
+
+.feature-info {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--pepel-text-phone);
+}
+
+.main {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}
+
+.team,
+.team-card {
+  background: var(--white-text);
+}
+
+.team {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}
+
+.team-card {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--pepel-text-phone);
+}
+
+/* address */
+
+.span {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+}
+
+.info {
+  background: var(--background-section-one);
+  color: var(--footer-adress);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+}
+
+/* portfolio */
+
+.none {
+  display: none;
+}
+
+.section-button {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  background: rgba(245, 244, 250, 1);
+  color: rgba(33, 33, 33, 1);
+}
+
+.section-button-btn {
+  background: rgba(33, 150, 243, 1);
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.button-btn:hover,
+.button-btn:focus {
+  color: rgba(255, 255, 255, 1);
+  background: rgba(33, 150, 243, 1);
+  cursor: pointer;
+}
+
+.portfolio {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: rgba(33, 33, 33, 1);
+  background: rgba(238, 238, 238, 1);
+}
+
+.portfolio-finger {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: rgba(117, 117, 117, 1);
+  background: rgba(238, 238, 238, 1);
+}
