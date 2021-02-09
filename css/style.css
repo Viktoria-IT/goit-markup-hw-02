@@ -2,7 +2,7 @@
   --white-text: rgba(255, 255, 255, 1);
   --blue-text: rgba(33, 150, 243, 1);
   --black-text: rgba(33, 33, 33, 1);
-  --pepel-text-phone: rgba(117, 117, 117, 1);
+  --pepel-text: rgba(117, 117, 117, 1);
   --background-section-one: rgba(47, 48, 58, 1);
   --background-section-four: rgba(245, 244, 250, 1);
   --footer-adress: rgba(255, 255, 255, 0.6);
@@ -30,7 +30,6 @@ body {
 
 .social-links .link {
   color: var(--black-text);
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -59,8 +58,13 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--blue-text);
+  color: var(--pepel-text);
   cursor: pointer;
+}
+
+.contacts-mail:hover,
+.contacts-mail:focus {
+  color: var(--blue-text);
   text-decoration: underline;
 }
 
@@ -71,7 +75,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--pepel-text-phone);
+  color: var(--pepel-text);
 }
 
 /* main */
@@ -115,7 +119,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--pepel-text-phone);
+  color: var(--pepel-text);
 }
 
 .main {
@@ -150,7 +154,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: var(--pepel-text-phone);
+  color: var(--pepel-text);
 }
 
 /* address */
@@ -199,21 +203,28 @@ body {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
-  background: rgba(245, 244, 250, 1);
-  color: rgba(33, 33, 33, 1);
+  background: var(--background-section-four);
+  color: var(--black-text);
 }
 
 .section-button-btn {
-  background: rgba(33, 150, 243, 1);
-  color: rgba(255, 255, 255, 1);
+  background: var(--blue-text);
+  color: var(--white-text);
   cursor: pointer;
 }
 
 .button-btn:hover,
 .button-btn:focus {
-  color: rgba(255, 255, 255, 1);
-  background: rgba(33, 150, 243, 1);
+  color: var(--white-text);
+  background: var(--blue-text);
   cursor: pointer;
+}
+
+.section-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .portfolio {
@@ -223,8 +234,8 @@ body {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: rgba(33, 33, 33, 1);
-  background: rgba(238, 238, 238, 1);
+  color: var(--black-text);
+  background: var(--background-section-four);
 }
 
 .portfolio-finger {
@@ -234,6 +245,6 @@ body {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: rgba(117, 117, 117, 1);
-  background: rgba(238, 238, 238, 1);
+  color: var(--pepel-text);
+  background: var(--background-section-four);
 }
