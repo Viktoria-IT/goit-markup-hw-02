@@ -43,6 +43,10 @@ body {
   text-decoration: underline;
 }
 
+.social-links .current {
+  color: var(--blue-text);
+}
+
 .links {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -213,8 +217,13 @@ body {
   cursor: pointer;
 }
 
-.button-btn:hover,
-.button-btn:focus {
+.section-button-btn:hover,
+.section-button-btn:focus {
+  color: var(--white-text);
+  background: var(--blue-text);
+}
+
+.section-button .section-btn:hover {
   color: var(--white-text);
   background: var(--blue-text);
   cursor: pointer;
