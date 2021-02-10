@@ -198,18 +198,6 @@ body {
   color: var(--black-text);
 }
 
-.section-button-btn {
-  background: var(--blue-text);
-  color: var(--white-text);
-  cursor: pointer;
-}
-
-.section-button-btn:hover,
-.section-button-btn:focus {
-  color: var(--white-text);
-  background: var(--blue-text);
-}
-
 .section-button .section-btn:hover {
   color: var(--white-text);
   background: var(--blue-text);
